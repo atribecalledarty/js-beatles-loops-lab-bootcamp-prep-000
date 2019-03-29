@@ -1,6 +1,6 @@
 // add solution here
 function theBeatlesPlay (arrayOfMusicians, arrayOfInst){
-  var newArr = {}
+  var newArr = []
   for (var i = 0; i < arrayOfMusicians.length; i ++){
     var sentence = arrayOfMusicians[i] + ' plays ' + arrayOfInst[i]
     newArr.push(sentence)
